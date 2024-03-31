@@ -5,4 +5,6 @@ age=int(input("what's your age? "))
 age+=1
 
 print("hello "+name)
-print(age)
+print("you'll be "+str(age)+" years old")
+
+print(f"hello {name}, you'll be {age} years old")
